@@ -19,6 +19,8 @@
 <template:addResources type="javascript" resources="owl.carousel.js"/>
 <template:addResources type="javascript" resources="owl-carousel.js"/>
 <template:addResources type="css" resources="owl.carousel.css"/>
+<template:addResources type="javascript" resources="fa-v4-shims.min.js"/>
+<template:addResources type="javascript" resources="fontawesome-all.min.js"/>
 
 <%-- Get the title of the carousel, if exists display above carousel --%>
 <c:set var="title" value="${currentNode.properties['jcr:title'].string}"/>

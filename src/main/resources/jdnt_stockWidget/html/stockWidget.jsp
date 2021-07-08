@@ -21,6 +21,8 @@
 <template:addResources type="css" resources="stockWidget/stockWidget.css" />
 <template:addResources type="javascript" resources="plugins/flip/jquery.flip.js"/>
 <template:addResources type="javascript" resources="custom/stockWidget.js"/>
+<template:addResources type="javascript" resources="fa-v4-shims.min.js"/>
+<template:addResources type="javascript" resources="fontawesome-all.min.js"/>
 
 <c:set var="uuid" value="${currentNode.identifier}"/>
 <template:addResources>

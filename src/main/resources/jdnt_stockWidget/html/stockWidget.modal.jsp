@@ -21,6 +21,8 @@
 <template:addResources type="javascript" resources="custom/stockWidgetModal.js"/>
 <template:addResources type="css" resources="stockWidget/stockWidget.css" />
 
+<template:addResources type="javascript" resources="fa-v4-shims.min.js"/>
+<template:addResources type="javascript" resources="fontawesome-all.min.js"/>
 
 <c:set var="uuid" value="${currentNode.identifier}"/>
 <c:set var="id" value="${fn:replace(uuid,'-', '')}"/>

@@ -20,6 +20,9 @@
 <template:addResources type="css" resources="plugins/skyforms/sky-forms.css"/>
 <template:addResources type="css" resources="plugins/skyforms/custom/custom-sky-forms.css"/>
 <template:addResources type="javascript" resources="custom/inverstorContactForm.js"/>
+<template:addResources type="javascript" resources="fa-v4-shims.min.js"/>
+<template:addResources type="javascript" resources="fontawesome-all.min.js"/>
+
 <c:set var="writeable" value="${currentResource.workspace eq 'live'}"/>
 <c:if test='${not writeable}'>
     <c:set var="disabled" value='disabled="true"'/>

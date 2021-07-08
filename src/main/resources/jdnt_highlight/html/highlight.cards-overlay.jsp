@@ -28,6 +28,8 @@
 <template:addResources type="css" resources="plugins/photoswipe/default-skin/default-skin.css"/>
 <template:addResources type="javascript" resources="plugins/photoswipe/photoswipe.min.js"/>
 <template:addResources type="javascript" resources="plugins/photoswipe/photoswipe-ui-default.min.js"/>
+<template:addResources type="javascript" resources="fa-v4-shims.min.js"/>
+<template:addResources type="javascript" resources="fontawesome-all.min.js"/>
 
 <c:choose>
     <%-- If no image has been supplied for the image view, put a placeholder image in place --%>
